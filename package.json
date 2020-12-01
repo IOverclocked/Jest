@@ -1,25 +1,33 @@
 {
-  "name": "jestjs",
-  "version": "1.0.0",
-  "description": "Jest ",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IOverclocked/Jest.git"
-  },
-  "keywords": [
-    "Jest"
-  ],
-  "author": "Michal Osiatycki",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/IOverclocked/Jest/issues"
-  },
-  "homepage": "https://github.com/IOverclocked/Jest#readme",
-  "devDependencies": {
-    "jest": "^26.6.3"
-  }
+	"name": "jestjs",
+	"version": "1.0.0",
+	"description": "Jest ",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/IOverclocked/Jest.git"
+	},
+	"keywords": [
+		"Jest"
+	],
+	"author": "Michal Osiatycki",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/IOverclocked/Jest/issues"
+	},
+	"homepage": "https://github.com/IOverclocked/Jest#readme",
+	"devDependencies": {
+		"jest": "^26.6.3",
+		"prettier": "^2.2.1"
+	},
+	"dependencies": {
+		"@babel/core": "^7.12.9",
+		"@babel/preset-env": "^7.12.7",
+		"@babel/preset-typescript": "^7.12.7",
+		"@types/jest": "^26.0.15",
+		"babel-jest": "^26.6.3"
+	}
 }
